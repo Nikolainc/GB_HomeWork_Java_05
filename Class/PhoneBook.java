@@ -15,7 +15,7 @@ public class PhoneBook {
     }
 
     public List<String> get(String name) {
-      
+
         return _phoneBook.get(name);
 
     }
@@ -23,7 +23,7 @@ public class PhoneBook {
     public void add(String name, String phone) {
 
         List<String> phoneList = _phoneBook.get(name);
-        
+
         if (phoneList == null) {
 
             phoneList = new ArrayList();
@@ -42,7 +42,7 @@ public class PhoneBook {
     public void add(String name, String[] phones) {
 
         for (String phone : phones) {
-            
+
             add(name, phone);
 
         }
