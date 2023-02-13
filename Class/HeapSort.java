@@ -51,7 +51,7 @@ public class HeapSort {
 
     }
 
-    public void print(int[] array) {
+    public static void print(int[] array) {
 
         for (int i = 0; i < array.length; ++i) {
 
